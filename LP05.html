@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" href="LP05.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>URL SAVER's</title>
+    <center><h1>Links4u</h1></center>
+</head>
+<body>
+    <p id="aler"></p>
+    <div class="visually-hidden" id="aa">
+    <div class="alert alert-danger d-flex align-items-center " role="alert" id="fit">
+        <img src="Alert-sign.gif" visible="false">
+        <div>
+            &nbsp;&nbsp;Please Enter URL!!!
+        </div>
+      </div>
+    </div>
+    <div class="len">
+    <input id="link"></input>
+    <button id="input-btn">Save</button>
+    <button id="del-btn">Delete</button>
+    </div>
+    <div class="delbox" id="delboxs">                                           <!--BUILDING THE DELETE BUTTON-->
+      <div class="headdel">
+        <div class="crosshead">
+      <h5>Select The Link To Delete</h5><br>
+    </div>
+    </div>
+    
+      <div class="droplink">             
+        <div class="dropdown">
+          <select name="del-list" value="Select" id="select1">      
+            <option value="ALL" selected>Delete All</option>
+          </select>
+        </div>
+        <div class="dropdown"><button id="del-btn-fin">Delete</button></div>
+      </div>
+      </div>
+    </div>
+    <div class="lenl">
+    <ol  class="list-group" id="list">
+       
+    </ol>
+    </div>
+    
+</body>
+<script src="LP05.js"></script>
+</html>

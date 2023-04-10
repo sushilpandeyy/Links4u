@@ -1,0 +1,18 @@
+  {  "manifest_version": 3,
+    "version": "1",
+    "name": "LinkList",
+    "action": {
+        "default_popup": "LP05.html",
+        "default_icon": "icon.png"
+    },
+    "dependencies": {
+      "dotenv": "^6.1.0"
+    },
+    "script": {
+      "start": "node -r dotenv/config test.js"
+    },
+    "permissions": [
+        "tabs"
+    ] 
+  }
+  

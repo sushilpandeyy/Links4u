@@ -1,0 +1,59 @@
+img{
+    height: 40px;
+    width: 50px;
+}
+div{
+    height: auto;
+    width: 550px;
+   border-radius: 5px;
+}
+input{
+    width:400px;
+    height: auto;
+}
+button{
+    font-family: 'Gloock', serif;
+}
+h1{
+    font-family: 'Gloock', serif;
+}
+
+.len{ 
+    padding: 10px;
+}
+#fit{
+    width: 550px;
+    height: 50px;
+
+}
+#flex{
+    display: flex;
+}
+.tabs{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.delbox{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.droplink{
+  display: flex;
+}
+#del-btn-fin{
+   align: center;
+}
+select{
+    margin-left: auto;
+    width: 400px;
+    
+}
+.dropdown{
+    display: flex;
+}
+.headdel{
+    display: flex;
+}
+#delboxs{
+    display: none;
+}
