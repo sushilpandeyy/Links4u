@@ -116,18 +116,3 @@ function save2(){                                                            //W
     Show()
 }
 
-fetch('https://api.airtable.com/v0/app9ffmpPI9qmknJu/tblIfLMswUgTicilF/CE', {
-    method: 'PATCH',
-    headers: {
-        'Authorization': 'Bearer patVMXpQJiaHb9oS9.44ca086d7d3a4c2804721daf3acb6a71d594cb86389cbc019c7e163def02e895',
-        'Content-Type': 'application/json'
-    },
-    // body: '{\n    "fields": {\n      "Address": "1 Ferry Building",\n      "Name": "Ferry Building",\n      "Visited": true\n    }\n  }',
-    body: JSON.stringify({
-        'fields': {
-            'Address': '1 Ferry Building',
-            'Name': 'Ferry Building',
-            'Visited': true
-        }
-    })
-});
