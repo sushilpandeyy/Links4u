@@ -1,4 +1,3 @@
-//import fetch from 'node-fetch';
 url =[]
 activetab="links"                                           //tag for storage
 let cin=url.length;
@@ -73,6 +72,7 @@ function Show(){                                                           //SHO
     `   
         }
         }
+        console.log("Log items "+listItems)
         list.innerHTML = listItems
         addlist()
     }
@@ -115,4 +115,3 @@ function save2(){                                                            //W
     localStorage.setItem('links', JSON.stringify(url));
     Show()
 }
-
